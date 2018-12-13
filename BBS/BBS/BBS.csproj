@@ -1,0 +1,345 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8CDABB26-71DB-4544-B20F-0BB541855F76}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>BBS</RootNamespace>
+    <AssemblyName>BBS</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\bbs.mdf">
+    </Content>
+    <Content Include="App_Data\bbs_log.ldf">
+      <DependentUpon>bbs.mdf</DependentUpon>
+    </Content>
+    <Content Include="Default.aspx" />
+    <Content Include="login.aspx" />
+    <Content Include="public\css\bootstrap.min.css" />
+    <Content Include="public\css\demo.css" />
+    <Content Include="public\css\home.css" />
+    <Content Include="public\css\layout.css" />
+    <Content Include="public\css\main.css" />
+    <Content Include="public\css\normalize.css" />
+    <Content Include="public\css\style.css" />
+    <Content Include="public\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="public\images\1.jpg" />
+    <Content Include="public\images\2.jpg" />
+    <Content Include="public\images\3.jpg" />
+    <Content Include="public\images\4.jpg" />
+    <Content Include="public\images\5.jpg" />
+    <Content Include="public\images\ab.jpg" />
+    <Content Include="public\images\ag-customer-brand-txt-1_ad914ee.png" />
+    <Content Include="public\images\ag-customer-brand-txt-2_b3dd522.png" />
+    <Content Include="public\images\ag-customer-brand_9ca1bac.png" />
+    <Content Include="public\images\ag-customer-icon_ac6e25a.png" />
+    <Content Include="public\images\ag-customer-search-txt_592f82b.png" />
+    <Content Include="public\images\ag-customer-search_83f9a60.png" />
+    <Content Include="public\images\ag-customer-small-txt-1_c935044.png" />
+    <Content Include="public\images\ag-customer-small-txt-2_b08da8b.png" />
+    <Content Include="public\images\ag-customer-small_35b8744.png" />
+    <Content Include="public\images\ag-customer-taobao-txt_2d1d5db.png" />
+    <Content Include="public\images\ag-customer-taobao_a9d7af6.png" />
+    <Content Include="public\images\ag-customer-tradition-txt_d2077c8.png" />
+    <Content Include="public\images\ag-customer-tradition_ad3bf6f.png" />
+    <Content Include="public\images\ag-customer-web-txt_c205aff.png" />
+    <Content Include="public\images\ag-customer-web_d2729dd.png" />
+    <Content Include="public\images\ag-download-android-1_aeb8851.png" />
+    <Content Include="public\images\ag-download-ios-1_04d4257.png" />
+    <Content Include="public\images\ag-link-icon_87d8dbf.png" />
+    <Content Include="public\images\ag-tgrb-btn-1_3b967d3.png" />
+    <Content Include="public\images\arrow.gif" />
+    <Content Include="public\images\arrow.png" />
+    <Content Include="public\images\back.jpg" />
+    <Content Include="public\images\banner\banner1.jpg" />
+    <Content Include="public\images\banner\banner2.jpg" />
+    <Content Include="public\images\banner\banner3.jpg" />
+    <Content Include="public\images\bg.jpg" />
+    <Content Include="public\images\c.jpg" />
+    <Content Include="public\images\list1.jpg" />
+    <Content Include="public\images\list2.jpg" />
+    <Content Include="public\images\list3.jpg" />
+    <Content Include="public\images\list4.jpg" />
+    <Content Include="public\images\list5.jpg" />
+    <Content Include="public\images\listcon.jpg" />
+    <Content Include="public\images\navbg.jpg" />
+    <Content Include="public\images\news\news1.jpg" />
+    <Content Include="public\images\news\news2.jpg" />
+    <Content Include="public\images\news\news3.jpg" />
+    <Content Include="public\images\news\news4.jpg" />
+    <Content Include="public\images\owl-login%402x.png" />
+    <Content Include="public\images\owl-login-arm%402x.png" />
+    <Content Include="public\images\owl-login-arm.png" />
+    <Content Include="public\images\owl-login.png" />
+    <Content Include="public\images\ph-owl-arm%402x.png" />
+    <Content Include="public\images\ph-owl-arm.png" />
+    <Content Include="public\images\ph-owl-arml%402x.png" />
+    <Content Include="public\images\ph-owl-arml.png" />
+    <Content Include="public\images\shadow.png" />
+    <Content Include="public\images\signup-arm%402x.png" />
+    <Content Include="public\images\signup-arm.png" />
+    <Content Include="public\images\topbg.png" />
+    <Content Include="public\images\wx.jpg" />
+    <Content Include="public\js\bootstrap.min.js" />
+    <Content Include="public\js\jquery-1.10.2.min.js" />
+    <Content Include="public\js\jquery.imgslider.js" />
+    <Content Include="public\js\jquery.min.js" />
+    <Content Include="public\js\jquery1.min.js" />
+    <Content Include="public\js\main.js" />
+    <Content Include="public\js\modernizr.custom.js" />
+    <Content Include="public\video\1.jpg" />
+    <Content Include="public\video\1.webm" />
+    <Content Include="public\video\2.jpg" />
+    <Content Include="public\video\2.webm" />
+    <Content Include="public\video\3.jpg" />
+    <Content Include="public\video\3.webm" />
+    <Content Include="public\video\4.jpg" />
+    <Content Include="public\video\4.webm" />
+    <Content Include="public\video\5.jpg" />
+    <Content Include="public\video\5.webm" />
+    <Content Include="public\video\6.jpg" />
+    <Content Include="public\video\6.webm" />
+    <Content Include="public\video\7.jpg" />
+    <Content Include="public\video\7.webm" />
+    <Content Include="public\video\8.jpg" />
+    <Content Include="public\video\8.webm" />
+    <Content Include="register.aspx" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.aspx.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="about.aspx.designer.cs">
+      <DependentUpon>about.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="BBSHead.master.cs">
+      <DependentUpon>BBSHead.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captcha.aspx.cs">
+      <DependentUpon>Captcha.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Captcha.aspx.designer.cs">
+      <DependentUpon>Captcha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="contact.aspx.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="contact.aspx.designer.cs">
+      <DependentUpon>contact.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.cs">
+      <SubType>ASPXCodeBehind</SubType>
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Edit.aspx.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Edit.aspx.designer.cs">
+      <DependentUpon>Edit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="index.aspx.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="index.aspx.designer.cs">
+      <DependentUpon>index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="login.aspx.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="login.aspx.designer.cs">
+      <DependentUpon>login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="map.aspx.cs">
+      <DependentUpon>map.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="map.aspx.designer.cs">
+      <DependentUpon>map.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage.master.cs">
+      <DependentUpon>MasterPage.master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mytcontent.aspx.cs">
+      <DependentUpon>mytcontent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mytcontent.aspx.designer.cs">
+      <DependentUpon>mytcontent.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordChange.aspx.cs">
+      <DependentUpon>PasswordChange.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PasswordChange.aspx.designer.cs">
+      <DependentUpon>PasswordChange.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PasswordChangeSuccess.aspx.cs">
+      <DependentUpon>PasswordChangeSuccess.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PasswordChangeSuccess.aspx.designer.cs">
+      <DependentUpon>PasswordChangeSuccess.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Person.aspx.cs">
+      <DependentUpon>Person.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Person.aspx.designer.cs">
+      <DependentUpon>Person.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PersonModify.aspx.cs">
+      <DependentUpon>PersonModify.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PersonModify.aspx.designer.cs">
+      <DependentUpon>PersonModify.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="post.aspx.cs">
+      <DependentUpon>post.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="post.aspx.designer.cs">
+      <DependentUpon>post.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="register.aspx.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="register.aspx.designer.cs">
+      <DependentUpon>register.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="reply.aspx.cs">
+      <DependentUpon>reply.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="reply.aspx.designer.cs">
+      <DependentUpon>reply.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="tcontent.aspx.cs">
+      <DependentUpon>tcontent.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="tcontent.aspx.designer.cs">
+      <DependentUpon>tcontent.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="about.aspx" />
+    <Content Include="BBSHead.master" />
+    <Content Include="Captcha.aspx" />
+    <Content Include="contact.aspx" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="css\dashboard.css" />
+    <Content Include="css\signin.css" />
+    <Content Include="css\userregister.css" />
+    <Content Include="Edit.aspx" />
+    <Content Include="index.aspx" />
+    <Content Include="map.aspx" />
+    <Content Include="MasterPage.master" />
+    <Content Include="mytcontent.aspx" />
+    <Content Include="PasswordChange.aspx" />
+    <Content Include="PasswordChangeSuccess.aspx" />
+    <Content Include="Person.aspx" />
+    <Content Include="PersonModify.aspx" />
+    <Content Include="post.aspx" />
+    <Content Include="public\fonts\44.jpg" />
+    <Content Include="public\images\banner\1.jpg" />
+    <Content Include="public\images\banner\2.jpg" />
+    <Content Include="public\images\banner\33.jpg" />
+    <Content Include="public\images\banner\44.jpg" />
+    <Content Include="public\images\banner\55.jpg" />
+    <Content Include="public\images\banner\6.jpg" />
+    <Content Include="public\images\banner\back.jpg" />
+    <Content Include="public\images\banner\bg.jpg" />
+    <Content Include="reply.aspx" />
+    <Content Include="tcontent.aspx" />
+    <None Include="public\fonts\fontawesome-webfont.woff" />
+    <None Include="public\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="public\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="public\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="public\images\Thumbs.db" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>50066</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

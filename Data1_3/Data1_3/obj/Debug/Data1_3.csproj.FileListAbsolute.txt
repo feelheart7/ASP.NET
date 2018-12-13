@@ -1,0 +1,20 @@
+D:\HengfeiHome\OneDrive-Work\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\bin\Data1_3.dll
+D:\HengfeiHome\OneDrive-Work\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\bin\Data1_3.pdb
+D:\HengfeiHome\OneDrive-Work\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\obj\Debug\ResolveAssemblyReference.cache
+D:\HengfeiHome\OneDrive-Work\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\obj\Debug\Data1_3.dll
+D:\HengfeiHome\OneDrive-Work\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\obj\Debug\Data1_3.pdb
+C:\Users\hengf\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\bin\Data1_3.dll
+C:\Users\hengf\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\bin\Data1_3.pdb
+C:\Users\hengf\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\hengf\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\obj\Debug\Data1_3.dll
+C:\Users\hengf\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\obj\Debug\Data1_3.pdb
+C:\Users\LiHengfei\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\bin\Data1_3.dll
+C:\Users\LiHengfei\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\bin\Data1_3.pdb
+C:\Users\LiHengfei\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\LiHengfei\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\obj\Debug\Data1_3.dll
+C:\Users\LiHengfei\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\obj\Debug\Data1_3.pdb
+E:\vs2008\project\Data1_3\Data1_3\bin\Data1_3.dll
+E:\vs2008\project\Data1_3\Data1_3\bin\Data1_3.pdb
+E:\vs2008\project\Data1_3\Data1_3\obj\Debug\ResolveAssemblyReference.cache
+E:\vs2008\project\Data1_3\Data1_3\obj\Debug\Data1_3.dll
+E:\vs2008\project\Data1_3\Data1_3\obj\Debug\Data1_3.pdb

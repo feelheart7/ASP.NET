@@ -1,0 +1,5 @@
+E:\vs2008\project\NewsManager\NewsManager\bin\NewsManager.dll
+E:\vs2008\project\NewsManager\NewsManager\bin\NewsManager.pdb
+E:\vs2008\project\NewsManager\NewsManager\obj\Debug\ResolveAssemblyReference.cache
+E:\vs2008\project\NewsManager\NewsManager\obj\Debug\NewsManager.dll
+E:\vs2008\project\NewsManager\NewsManager\obj\Debug\NewsManager.pdb

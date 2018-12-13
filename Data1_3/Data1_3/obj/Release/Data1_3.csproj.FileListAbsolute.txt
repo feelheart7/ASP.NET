@@ -1,0 +1,5 @@
+C:\Users\hengf\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\bin\Data1_3.dll
+C:\Users\hengf\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\bin\Data1_3.pdb
+C:\Users\hengf\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\obj\Release\ResolveAssemblyReference.cache
+C:\Users\hengf\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\obj\Release\Data1_3.dll
+C:\Users\hengf\OneDrive - English College of Adelaide\教学\DotNet基础\CodeExample\Data1_3\Data1_3\obj\Release\Data1_3.pdb

@@ -1,0 +1,58 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="SiteMaster.Master.cs" Inherits="Data1_3.SiteMaster" %>
+
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head runat="server">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+    <title><%= PageTitle %> - 学生信息管理系统</title>
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/dashboard.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark flxe-md-nowrap p-0 shadow">
+  <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="#">学生信息管理系统</a>
+  <div class="w-100"> </div>
+  <ul class="navbar-nav px-3 ">
+    <li class="nav-item dropdown text-nowrap">
+      <a href="#" class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">您好，<%=Session["RealName"] %></a>
+      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" href="#">个人中心</a>
+          <asp:HyperLink ID="hlLogout" NavigateUrl="~/Logout.aspx" runat="server" CssClass="dropdown-item">注销</asp:HyperLink>
+        </div> 
+    </li>
+  </ul>
+</nav>
+  <div class="container-fluid">
+    <div class="row">
+      <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+        <div class="sidebar-sticky">
+          <ul class="nav flex-column">
+          <asp:Repeater ID="rMainMenu" runat="server">
+            <ItemTemplate>
+              <li class="nav-item">
+                  
+                  <a class='nav-link <%# Eval("Text").Equals(PageTitle) ? "active" : "" %>' href='<%# Eval("Link") %>'><%# Eval("Text") %></a>
+              </li>
+            </ItemTemplate>
+          </asp:Repeater>
+          </ul>
+         </div>
+      </nav>
+      
+      <main class="col-md-10 ml-sm-auto" role="main">
+        <form id="form1" runat="server">
+          <asp:ContentPlaceHolder ID="cplMain" runat="server">
+          
+          </asp:ContentPlaceHolder>
+        </form>
+      </main>
+    </div>
+  </div>
+</body>
+</html>

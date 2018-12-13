@@ -1,0 +1,76 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="BBSHead.master.cs" Inherits="BBSHead" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+        <title>校园学习网上论坛</title>
+        <meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="public/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="public/css/main.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+		<div class="top-intr">
+			<div class="container">
+				<p class="pull-left">
+					校园学习网上论坛
+				</p>
+				<p class="pull-right">
+					<a><i class="glyphicon glyphicon-earphone"></i>联系电话：0531-55555555 </a>
+				</p>
+			</div>
+		</div>
+		
+		
+		<div class="row" style="text-align:center;width:1800px;">
+		<div class="col-sm-9 col-xs-12" ">
+				<asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+     
+                </asp:ContentPlaceHolder>
+                </div>
+                </div>
+                
+                
+                <footer>
+			    <div class="footer02">
+				<div class="container">
+					<div class="col-sm-4 col-xs-12 footer-address">
+						<h4>校园学习网上论坛</h4>
+						<ul>
+							<li><i class="glyphicon glyphicon-home"></i>公司地址：山东省济南市历城区山东建筑大学</li>
+							<li><i class="glyphicon glyphicon-phone-alt"></i>固定电话：0531-55555555 </li>
+							<li><i class="glyphicon glyphicon-phone"></i>移动电话：17865313528</li>
+							<li><i class="glyphicon glyphicon-envelope"></i>联系邮箱：312052232@qq.com</li>
+						</ul>
+					</div>
+					<ul class="footerlink col-sm-4 hidden-xs">
+                        <li>
+							<a href="index.aspx">网站首页</a>
+						</li>
+						<li>
+							<a href="contact.aspx">联系我们</a>
+						</li>
+					
+						<li>
+							<a href="contact.aspx">联系我们</a>
+						</li>
+					</ul>
+					<div class="gw col-sm-4 col-xs-12">
+						<p>关注我们：</p>
+						<img src="public/images/wx.jpg"/>
+						<p>客服热线：0531-55555555</p>
+					</div>
+				</div>
+				<div class="copyright text-center">
+					<span>copyright © 2018 </span>
+					<span>校园学习网上论坛</span>
+				</div>
+			</div>
+			</footer>
+    </form>
+</body>
+</html>
