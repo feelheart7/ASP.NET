@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="BBS.index" Title="学习交流" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master" AutoEventWireup="true" CodeFile="index.aspx.cs" Inherits="BBS.index" Title="论坛首页" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>
@@ -24,7 +24,7 @@
                 <asp:GridView 
                         ID="GridView1" runat="server"  AllowSorting="True" 
                    AutoGenerateColumns="False" CellPadding="4"  ForeColor="#333333" GridLines="None"
-            Width="100%" Font-Size="20px" DataSourceID="SqlDataSource1" 
+            Width="83%" Font-Size="20px" DataSourceID="SqlDataSource1" 
                         onselectedindexchanged="GridView1_SelectedIndexChanged1" 
                         DataKeyNames="PostsID" >
             <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />

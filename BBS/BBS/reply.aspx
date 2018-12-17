@@ -1,13 +1,8 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeFile="reply.aspx.cs" Inherits="BBS.reply" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/MasterPage.master"  AutoEventWireup="true" CodeFile="reply.aspx.cs" Inherits="BBS.reply" %>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head id="Head1" runat="server">
-    <title>无标题页</title>
-</head>
-<form id="form1" runat="Server">
-<body style="margin:0;border:0" class="Body">
+<asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" Runat="Server">
    
        <table width="100%" border="0" cellspacing="0" cellpadding="0" runat="server">
               <tr>
@@ -58,8 +53,4 @@
               </tr>
             </table> 
 
-</body>
-</form>
-
-</html>
-
+</asp:Content>

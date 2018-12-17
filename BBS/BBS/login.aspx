@@ -60,7 +60,11 @@
                     <asp:CheckBox ID="cbRememberMe" runat="server"/> 记住用户名
                 </label>
           </div>
-            <asp:Button ID="btnLogin" Text="登录" runat="server" onclick="btnLogin_Click" CssClass="btn btn-lg btn-primary btn-block" />
+          验证码：
+          <asp:TextBox ID="tbx_yzm" runat="server" Width="70px"></asp:TextBox>
+         <asp:ImageButton ID="ibtn_yzm" runat="server" />
+         点击图片更换验证吗
+         <asp:Button ID="btnLogin" Text="登录" runat="server" onclick="btnLogin_Click" CssClass="btn btn-lg btn-primary btn-block" />
             <div class="text-sm-center p-3 text-secondary" style="font-size:0.8em;">
                 没有注册？点击<asp:HyperLink ID="hlRegister" runat="server" 
                     NavigateUrl="~/register.aspx">这里</asp:HyperLink>注册。
@@ -72,6 +76,9 @@
     </div>
 
     
+<script type="text/javascript">
+
+
 
 <script language="javascript" type="text/javascript">  
     function f_refreshtype() {  

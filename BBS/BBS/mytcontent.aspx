@@ -49,8 +49,9 @@
                                 ReadOnly="True" SortExpression="PostsID" />
                             <asp:BoundField DataField="PostTime" HeaderText="发布时间" 
                                 SortExpression="PostTime" />
-                            <asp:HyperLinkField NavigateUrl="Edit.aspx?PostID={0}" Text="编辑" />
-                            <asp:CommandField ShowDeleteButton="True" />
+                            <asp:HyperLinkField DataNavigateUrlFields="PostsID" 
+                                DataNavigateUrlFormatString="Edit.aspx?PostsID={0}" HeaderText="编辑" Text="编辑" />
+                            <asp:CommandField ShowDeleteButton="True" DeleteText="删除" HeaderText="删除" />
                     </Columns>
                         <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
                        

@@ -29,37 +29,69 @@ namespace BBS
                 string strConn = ConfigurationManager.ConnectionStrings["ConnectionString"].ToString();
                 Session["PostsID"] = Request.QueryString["PostsID"];
                 string sqlStr = "select * from Posts where PostsID=@PostsID";
+
                 string sqlRT = "update Posts set ReadTimes=ReadTimes+1 where PostsID=@PostsID";
+
                 SqlConnection conn = new SqlConnection(strConn);
+                conn.Open();
+
                 using (SqlCommand cmd = new SqlCommand(sqlRT, conn))
                 {
-                    cmd.Parameters.AddWithValue("@PostsID", Session["PostsID"].ToString());
-                }
-                using (SqlCommand command = new SqlCommand(sqlStr, conn))
-                {
-                    command.Parameters.AddWithValue("@PostsID", Session["PostsID"].ToString());
-                    conn.Open();
 
-                    using (SqlDataReader rd = command.ExecuteReader())
+
+
+                    cmd.Parameters.AddWithValue("@PostsID", Session["PostsID"].ToString());
+                    try
                     {
-                        if (rd.Read())
+
+                        if (cmd.ExecuteNonQuery() == 1)
                         {
 
-                            this.Label1.Text = rd["Title"].ToString();
-                            this.username.Text = rd["UserName"].ToString();
-                            this.readtimes.Text = rd["ReadTimes"].ToString();
-                            this.posttime.Text = rd["PostTime"].ToString();
-                            TextBox2.Text = "    " + rd["Content"].ToString();
-                            rd.Close();
-
                         }
-
                         else
                         {
-                            rd.Close();
+
                         }
+
                     }
+                    catch (Exception ex)
+                    {
+
+                    }
+
                 }
+
+             
+
+                 using (SqlCommand command = new SqlCommand(sqlStr, conn))
+                    {
+
+                        
+                        command.Parameters.AddWithValue("@PostsID", Session["PostsID"].ToString());
+                        
+
+                        using (SqlDataReader rd = command.ExecuteReader())
+                        {
+                            if (rd.Read())
+                            {
+
+                                this.Label1.Text = rd["Title"].ToString();
+                                this.username.Text = rd["UserName"].ToString();
+                                this.readtimes.Text = rd["ReadTimes"].ToString();
+                                this.posttime.Text = rd["PostTime"].ToString();
+                                TextBox2.Text = "    " + rd["Content"].ToString();
+                                rd.Close();
+
+                            }
+
+                            else
+                            {
+                                rd.Close();
+                            }
+                        
+                       }
+                }
+                 conn.Close();
 
             }
         }

@@ -80,7 +80,7 @@ namespace BBS
             }
         protected void Button2_Click(object sender, EventArgs e)
         {
-
+            base.Response.Redirect("index.aspx", true);
         }
         }
     }

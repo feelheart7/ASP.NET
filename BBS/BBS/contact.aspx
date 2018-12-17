@@ -45,14 +45,12 @@
 							<a href="index.aspx">网站首页</a>
 						</li>
 						<li>
-							<a href="fabutiezi.aspx">发布帖子</a>
+							<a href="post.aspx">发布帖子</a>
 						</li>
 						<li>
 							<a href="PersonModify.aspx">信息修改</a>
 						</li>
-						<li>
-							<a href="video.aspx">学习视频</a>
-						</li>
+						
 						<li>
 							<a href="contact.aspx">联系我们</a>
 						</li>

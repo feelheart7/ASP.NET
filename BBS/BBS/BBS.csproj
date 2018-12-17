@@ -191,6 +191,13 @@
     <Compile Include="Edit.aspx.designer.cs">
       <DependentUpon>Edit.aspx</DependentUpon>
     </Compile>
+    <Compile Include="ImageCode.aspx.cs">
+      <DependentUpon>ImageCode.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ImageCode.aspx.designer.cs">
+      <DependentUpon>ImageCode.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -273,6 +280,13 @@
     <Compile Include="reply.aspx.designer.cs">
       <DependentUpon>reply.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Search.aspx.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Search.aspx.designer.cs">
+      <DependentUpon>Search.aspx</DependentUpon>
+    </Compile>
     <Compile Include="tcontent.aspx.cs">
       <DependentUpon>tcontent.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -291,6 +305,7 @@
     <Content Include="css\signin.css" />
     <Content Include="css\userregister.css" />
     <Content Include="Edit.aspx" />
+    <Content Include="ImageCode.aspx" />
     <Content Include="index.aspx" />
     <Content Include="map.aspx" />
     <Content Include="MasterPage.master" />
@@ -310,6 +325,7 @@
     <Content Include="public\images\banner\back.jpg" />
     <Content Include="public\images\banner\bg.jpg" />
     <Content Include="reply.aspx" />
+    <Content Include="Search.aspx" />
     <Content Include="tcontent.aspx" />
     <None Include="public\fonts\fontawesome-webfont.woff" />
     <None Include="public\fonts\glyphicons-halflings-regular.eot" />
