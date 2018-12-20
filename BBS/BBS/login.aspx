@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" MasterPageFile="~/BBSHead.master" AutoEventWireup="true" CodeFile="login.aspx.cs" Inherits="BBS.login" Title="登录页面" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/BBSHead.master" AutoEventWireup="true" Codebehind="login.aspx.cs" Inherits="BBS.login" Title="登录页面" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" Runat="Server">
 </asp:Content>

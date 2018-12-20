@@ -1,5 +1,11 @@
-E:\vs2008\project\NewsManager\NewsManager\bin\NewsManager.dll
-E:\vs2008\project\NewsManager\NewsManager\bin\NewsManager.pdb
-E:\vs2008\project\NewsManager\NewsManager\obj\Debug\ResolveAssemblyReference.cache
-E:\vs2008\project\NewsManager\NewsManager\obj\Debug\NewsManager.dll
-E:\vs2008\project\NewsManager\NewsManager\obj\Debug\NewsManager.pdb
+E:/vs2008/project/NewsManager/NewsManager/bin/NewsManager.dll
+E:/vs2008/project/NewsManager/NewsManager/bin/NewsManager.pdb
+E:/vs2008/project/NewsManager/NewsManager/obj/Debug/ResolveAssemblyReference.cache
+E:/vs2008/project/NewsManager/NewsManager/obj/Debug/NewsManager.dll
+E:/vs2008/project/NewsManager/NewsManager/obj/Debug/NewsManager.pdb
+/Users/wejudging/Documents/GitHub/ASP.NET/NewsManager/NewsManager/bin/NewsManager.dll
+/Users/wejudging/Documents/GitHub/ASP.NET/NewsManager/NewsManager/bin/NewsManager.pdb
+/Users/wejudging/Documents/GitHub/ASP.NET/NewsManager/NewsManager/obj/Debug/NewsManager.csprojAssemblyReference.cache
+/Users/wejudging/Documents/GitHub/ASP.NET/NewsManager/NewsManager/obj/Debug/NewsManager.csproj.CoreCompileInputs.cache
+/Users/wejudging/Documents/GitHub/ASP.NET/NewsManager/NewsManager/obj/Debug/NewsManager.dll
+/Users/wejudging/Documents/GitHub/ASP.NET/NewsManager/NewsManager/obj/Debug/NewsManager.pdb

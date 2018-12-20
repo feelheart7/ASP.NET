@@ -1,10 +1,15 @@
-E:\net\BBS\BBS\obj\Debug\ResolveAssemblyReference.cache
-E:\net\BBS\BBS\bin\BBS.dll
-E:\net\BBS\BBS\bin\BBS.pdb
-E:\net\BBS\BBS\obj\Debug\BBS.dll
-E:\net\BBS\BBS\obj\Debug\BBS.pdb
-C:\Users\87377\Documents\Tencent Files\873773108\FileRecv\BBS\BBS\bin\BBS.dll
-C:\Users\87377\Documents\Tencent Files\873773108\FileRecv\BBS\BBS\bin\BBS.pdb
-C:\Users\87377\Documents\Tencent Files\873773108\FileRecv\BBS\BBS\obj\Debug\ResolveAssemblyReference.cache
-C:\Users\87377\Documents\Tencent Files\873773108\FileRecv\BBS\BBS\obj\Debug\BBS.dll
-C:\Users\87377\Documents\Tencent Files\873773108\FileRecv\BBS\BBS\obj\Debug\BBS.pdb
+E:/net/BBS/BBS/obj/Debug/ResolveAssemblyReference.cache
+E:/net/BBS/BBS/bin/BBS.dll
+E:/net/BBS/BBS/bin/BBS.pdb
+E:/net/BBS/BBS/obj/Debug/BBS.dll
+E:/net/BBS/BBS/obj/Debug/BBS.pdb
+C:/Users/87377/Documents/Tencent Files/873773108/FileRecv/BBS/BBS/bin/BBS.dll
+C:/Users/87377/Documents/Tencent Files/873773108/FileRecv/BBS/BBS/bin/BBS.pdb
+C:/Users/87377/Documents/Tencent Files/873773108/FileRecv/BBS/BBS/obj/Debug/ResolveAssemblyReference.cache
+C:/Users/87377/Documents/Tencent Files/873773108/FileRecv/BBS/BBS/obj/Debug/BBS.dll
+C:/Users/87377/Documents/Tencent Files/873773108/FileRecv/BBS/BBS/obj/Debug/BBS.pdb
+/Users/wejudging/Documents/GitHub/ASP.NET/BBS/BBS/bin/BBS.dll
+/Users/wejudging/Documents/GitHub/ASP.NET/BBS/BBS/bin/BBS.pdb
+/Users/wejudging/Documents/GitHub/ASP.NET/BBS/BBS/obj/Debug/BBS.csproj.CoreCompileInputs.cache
+/Users/wejudging/Documents/GitHub/ASP.NET/BBS/BBS/obj/Debug/BBS.dll
+/Users/wejudging/Documents/GitHub/ASP.NET/BBS/BBS/obj/Debug/BBS.pdb
